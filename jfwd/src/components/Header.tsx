@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +20,9 @@ const Header = () => {
             <button onClick={toggleMenu} className="close">
               ✖
             </button>
-            <ul className='flex justify-center '>
+            <ul className='flex flex-col justify-center '>
               <li className='padding-menu'><a href="#">Home</a></li>
-              <li className='padding-menu'><a href="#">works</a></li>
+              <li className='padding-menu'><a href="#">Works</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
