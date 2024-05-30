@@ -55,3 +55,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* HOME */
+
+.home_bloc {
+  display: flex;
+  align-items: flex-end;
+  width: 100vw;
+  height: 80vh;
+  font-size: 21vw;
+  line-height: 30vh;
+}
